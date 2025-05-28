@@ -1,0 +1,26 @@
+{
+  "name": "n8n-mcp-execution-server",
+  "version": "1.0.0",
+  "description": "MCP server for n8n workflow creation and execution with automatic webhook triggers",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "axios": "^1.6.0",
+    "uuid": "^9.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "n8n",
+    "workflow",
+    "automation",
+    "webhook"
+  ],
+  "author": "Joel Fuller",
+  "license": "MIT"
+}
